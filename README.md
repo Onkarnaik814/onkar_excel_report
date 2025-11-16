@@ -1,1 +1,77 @@
 # onkar_excel_report
+
+
+📊 BigBasket Data Analysis
+
+This Excel workbook contains processed data extracted from BigBasket for analysis. The dataset is structured across two sheets: Sheet1 and BigBasket, with the primary cleaned data available in the BigBasket sheet.
+
+---
+
+📁 File Structure
+1. Sheet: BigBasket (Main Dataset)
+This sheet contains the cleaned and properly structured dataset for analysis.
+
+Column Name	Description
+ProductName	Name of the product listed on BigBasket
+Brand	Product brand/manufacturer
+Price	Original price of the product
+DiscountPrice	Price after applying discounts
+Image_Url	URL of the product image
+Quantity	Weight or quantity of the item
+Category	Main category (e.g., groceries, beverages, household)
+SubCategory	More specific product classification
+Absolute_Url	Complete URL of the product page on BigBasket
+This sheet is ideal for:
+
+Price comparison
+Discount analysis
+Category-wise exploration
+Data visualisation and dashboard creation
+Web-scraping validation
+2. Sheet: Sheet1 (Raw / Unstructured Data)
+This sheet contains unnamed columns (Unnamed: 0 to Unnamed: 12), likely representing raw or intermediate data captured during scraping or exporting.
+
+This sheet may need cleaning before use and is not recommended for direct analysis.
+
+---
+
+🔍 Suggested Analyses
+You can use the dataset for:
+
+Price vs Discount analysis
+Brand-level pricing comparison
+Category/Subcategory trend analysis
+Availability of product images & URLs
+Creation of dashboards in Excel or Power BI
+
+---
+📦 Requirements
+To work with this dataset efficiently, you may use:
+
+Excel / Google Sheets
+Python (Pandas, NumPy, Matplotlib)
+Power BI / Tableau
+
+---
+🚀 How to Use
+Open the file using Excel or import it into Python/Pandas.
+Use the BigBasket sheet for analysis.
+Ignore or clean Sheet1 if needed.
+Perform your analysis or load into BI tools for dashboards.
+About
+No description, website, or topics provided.
+Resources
+ Readme
+ Activity
+Stars
+ 0 stars
+Watchers
+ 0 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Footer
